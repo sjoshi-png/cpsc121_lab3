@@ -6,4 +6,4 @@
 //
 // Lab 3-2
 
-double money_mula(double hours, double wage);
+double MoneyMula(double hours, double wage);

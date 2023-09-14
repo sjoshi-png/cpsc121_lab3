@@ -18,13 +18,13 @@ int main() {
   std::cin >> wage;
   std::cout << "Hours worked: ";
   std::cin >> hours;
-  if (hours < 0 || wage < 0){
+  if (hours < 0 || wage < 0) {
     std::cout << "Invalid Input\n";
-  }
-  else {
-    double salary = money_mula(hours, wage);
+  } else {
+    double salary = MoneyMula(hours, wage);
     std::cout.precision(2);
-    std::cout << "Total Salary Owed: $" << std::fixed << std::setprecision(2) << salary << "\n";
+    std::cout << "Total Salary Owed: $" << std::fixed << std::setprecision(2)
+              << salary << "\n";
   }
   return 0;
 }
